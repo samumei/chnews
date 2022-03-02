@@ -1,0 +1,27 @@
+Package: chnews
+Title: Analyze Online Articles of Swiss Media Outlets
+Version: 1.0.0
+Authors@R: 
+    person(given = "Samuel",
+           family = "Meier",
+           role = c("aut", "cre"),
+           email = "samuel.meier@students.unibe.ch",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Allows web scraping and analysis of online articles of the Swiss media outlets SRF, NZZ, and WOZ.
+Depends: 
+    R (>= 3.5.0),
+    dplyr,
+    ggplot2,
+    rvest
+Imports: 
+    jsonlite,
+    assertthat,
+    lubridate,
+    progress
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+Suggests: 
+    covr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.1.1
